@@ -1,0 +1,2 @@
+defmodule AOC do
+end
