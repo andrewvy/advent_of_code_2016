@@ -25,6 +25,22 @@ defmodule AOC.Solutions.Puzzle2 do
   @moduledoc """
   This is the solution for Puzzle 2, which utilizes function head pattern matching to
   control how to change the position based on the rotation and the number of tiles moved.
+
+  Compared to Puzzle 1's solution, this time we have to keep track of the intermediary tiles
+  that the person has traversed over.
+
+  I used a MapSet, which is a convenient Set datastructure to store all my positions.
+
+  All positions are stored in the MapSet in tuple form of: {x, y}
+
+  Then, it becomes a simple check to see if a tile has already been visited by checking if it
+  exists in the `visited` MapSet.
+
+  I keep track of all visited tiles, and also the history of all the times the person has traversed
+  the same tile in a `visited_history` List.
+
+  Lastly, to get the first tile the person has visited twice, you can check the `visited_history` List
+  and get the last (first) entry of the list.
   """
 
   @spec solve(String.t) :: integer()
