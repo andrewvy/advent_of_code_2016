@@ -9,3 +9,4 @@ Puzzles:
 ### Day 1
 
 - [Puzzle 1](lib/solutions/puzzle_1.ex)
+- [Puzzle 2](lib/solutions/puzzle_2.ex)
