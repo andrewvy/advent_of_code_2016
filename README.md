@@ -11,3 +11,4 @@ Puzzles:
 - [Puzzle 1](lib/solutions/puzzle_1.ex)
 - [Puzzle 2](lib/solutions/puzzle_2.ex)
 - [Puzzle 3](lib/solutions/puzzle_3.ex)
+- [Puzzle 4](lib/solutions/puzzle_4.ex)
