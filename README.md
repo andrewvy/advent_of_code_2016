@@ -24,3 +24,7 @@ Puzzles:
 ### Day 4
 
 - [Day 4](lib/solutions/day_4.ex)
+
+### Day 5
+
+- [Day 5](lib/solutions/day_5.ex)
